@@ -72,3 +72,49 @@ nav {
     height: 100vh;
     width: 30%;
 }
+
+.welcome-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 12%;
+}
+
+.welcome-text h2 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.welcome-text p {
+    color: #808080;
+    font-size: 14pt;
+    width: 60%;
+    text-align: center;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    width: 85%;
+    gap: 8rem;
+}
+
+.welcome-text2 h2 {
+    font-size: 24pt;
+    text-align: right;
+}
+
+.welcome-text2 p {
+    text-align: right;
+    color: #808080;
+    font-size: 14pt;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.welcome-image {
+    width: 120%;
+}
