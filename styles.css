@@ -23,8 +23,8 @@ nav {
     text-align: center;
     height: 60px;
     align-items: center;
-    /* background-color: white; */
-    background-color: transparent;
+    background-color: white;
+    /* background-color: transparent; */
     position: fixed;
     left: 0%;
     right: 0%;
@@ -229,6 +229,34 @@ nav {
     color: #808080;
     padding-left: 40px;
 
-
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(128, 126, 126);
+    height: 100px;
+    margin-top: 10%;
+    /* left: 0%; */
+    /* right: 0%; */
+}
+
+/* .about-us { */
+    /* display: flex; */
+    /* flex-direction: column; */
+
+
+/* .about-us p { */
+    /* font-size: 15px; */
+    /* text-wrap: wrap; */
+
+.sub {
+    /* padding: 20px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* gap: 20%; */
+}
