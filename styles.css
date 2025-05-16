@@ -96,13 +96,14 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     margin: auto;
-    width: 85%;
+    width: 80%;
     gap: 8rem;
 }
 
 .welcome-text1 h2 {
     font-size: 24pt;
-    margin-top: 7%;
+    margin-top: 10%;
+    text-align: right;
 }
 
 .welcome-text1 p {
@@ -110,27 +111,41 @@ nav {
     color: #808080;
     font-size: 14pt;
     margin-bottom: 30px;
+    /* margin-right: 20px; */
 }
 
 .welcome-text1 {
     display: flex;
     flex-direction: column;
     align-items: end;
-    /* margin-bottom: 10%; */
+    /* margin-right: 10%; */
+}
+
+.welcome-image1 {
+    width: 100%;
+
+}
+
+.welcome-image1:hover {
+    box-shadow: 0px 5px 10px rgb(107, 105, 105);
 }
 
 .btn1 {
-    background-color: black;
+    background-color: #808080;
     border-radius: 40px;
     color: white;
     padding: 12px 30px;
     max-width: 150px;
 }
 
+.btn1:hover {
+    background-color: black;
+}
+
 .welcome-text2 h2 {
     font-size: 24pt;
     text-align: left;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .welcome-text2 p {
@@ -140,49 +155,68 @@ nav {
     margin-bottom: 30px;
 }
 
+
 .welcome-image2 {
     width: 150%;
 }
 
+.welcome-image2:hover {
+    box-shadow: 5px 5px 10px #808080;
+}
+
 
 .btn2 {
-    background-color: black;
+    background-color: #808080;
     border-radius: 40px;
     color: white;
     padding: 12px 30px;
     max-width: 150px;
 }
 
+.btn2:hover {
+    background-color: black;
+}
+
 .welcome-text3 h2 {
     font-size: 24pt;
     text-align: right;
+    margin-top: 10%;
 }
 
 .welcome-text3 p {
     text-align: right;
     color: #808080;
     font-size: 14pt;
-    margin-bottom: 30px;
+    margin-bottom: 10%;
+    /* margin-bottom: 30px; */
 }
 
 .welcome-text3 {
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: 5%;
-    margin-bottom: 15%;
+    /* margin-top: 5%; */
+    /* margin-bottom: 15%; */
 }
 
 .welcome-image3 {
-    width: 100vh;
+    width: 100%;
+}
+
+.welcome-image3:hover {
+    box-shadow: 0px 5px 10px rgb(107, 105, 105);
 }
 
 .btn3 {
-    background-color: black;
+    background-color: #808080;
     border-radius: 40px;
     color: white;
     padding: 12px 30px;
     max-width: 150px;
+}
+
+.btn3:hover {
+    background-color: black;
 }
 
 .about {
@@ -193,6 +227,7 @@ nav {
     margin-left: 10%;
     gap: 7rem;
     margin-right: 8%;
+    margin-top: 10%;
 }
 
 .about-content h2 {
@@ -200,6 +235,7 @@ nav {
     font-weight: bolder;
     margin-top: 40%;
 }
+
 .lead {
     text-align: left;
     font-size: 22px;
@@ -245,13 +281,13 @@ footer {
 }
 
 /* .about-us { */
-    /* display: flex; */
-    /* flex-direction: column; */
+/* display: flex; */
+/* flex-direction: column; */
 
 
 /* .about-us p { */
-    /* font-size: 15px; */
-    /* text-wrap: wrap; */
+/* font-size: 15px; */
+/* text-wrap: wrap; */
 
 .sub {
     /* padding: 20px; */
